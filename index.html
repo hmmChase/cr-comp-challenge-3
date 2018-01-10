@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>cr-comp-challenge-3</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css">
+  <link rel="stylesheet" href="circle.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+</head>
+
+<body>
+  <div class="flex-container">
+    <nav>
+      <img class="profile-pic" src="jeffrey_tucker.png" alt="Profile picture">
+      <p class="username">Chase Richard
+        <i class="fas fa-angle-down"></i>
+      </p>
+      <div class="nav-menu">
+        <hr>
+        <ul>
+          <li class="dropdown">
+            <p href="javascript:void(0)" class="menu-heading">Main</p>
+            <div class="dropdown-content">
+              <a href="#">
+                <i class="fas fa-home"></i>
+                <span class="i-space">HOME</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-briefcase"></i>
+                <span class="i-space">JOBS</span>
+              </a>
+              <a href="#">
+                <i class="far fa-file-alt"></i>
+                <span class="i-space">RESUMES</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-tasks"></i>
+                <span class="i-space">TASKS</span>
+              </a>
+              <a href="#">
+                <i class="far fa-calendar-alt"></i>
+                <span class="i-space">CALENDER</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="dropdown">
+            <p href="javascript:void(0)" class="menu-heading">Admin</p>
+            <div class="dropdown-content">
+              <a href="#">
+                <i class="fas fa-users"></i>
+                <span class="i-space">USERS</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-map-marker"></i>
+                <span class="i-space">LOCATION</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-code-branch"></i>
+                <span class="i-space">WORKFLOWS</span>
+              </a>
+              <a href="#">
+                <i class="far fa-newspaper"></i>
+                <span class="i-space">JOB BOARDS</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-share-alt"></i>
+                <span class="i-space">SOCIAL</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="dropdown">
+            <p href="javascript:void(0)" class="menu-heading">Categories</p>
+            <div class="dropdown-content">
+              <a href="#">
+                <i class="fas fa-check-square yellow"></i>
+                <span class="i-space">Administrative</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-square blue"></i>
+                <span class="i-space">Design</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-square red"></i>
+                <span class="i-space">Executive</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-square green"></i>
+                <span class="i-space">Human Resources</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="upper-section">
+        <div class="searchbar">
+          <div class="search-menu hover-button">
+            <i class="fas fa-angle-left"></i>
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="search-input-container">
+            <i class="fas fa-search"></i>
+            <input class="search-input" type="search" name="" id="" placeholder="Search for a job, task or resume">
+          </div>
+          <div class="search-float">
+            <div class="search-1 hover-button">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="search-2 hover-button">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="search-3 hover-button">
+              <i class="fas fa-th"></i>
+            </div>
+          </div>
+        </div>
+        <header>
+          <h1>Front-end Web Developer</h1>
+          <p>
+            <i class="fas fa-map-marker"></i>Denver, Co -
+            <span>Preview this post</span>
+          </p>
+          <div class="header-buttons">
+            <div class="header-button header-button1 hover-button">
+              <i class="fas fa-circle"></i>OPEN</div>
+            <div class="header-button header-button2 hover-button">
+              <i class="fas fa-bookmark"></i>
+            </div>
+            <div class="header-button header-button3 hover-button">
+              <i class="fas fa-pencil-alt"></i>
+            </div>
+            <div class="header-button header-button4 hover-button">
+              <i class="fas fa-trash-alt"></i>
+            </div>
+          </div>
+          <ul>
+            <li>SUMMARY</li>
+            <li>APPLICANTS</li>
+            <li>JOB BOARD</li>
+            <li>INTERVIEWS</li>
+            <li>ACTIVITY</li>
+            <li>BROADCAST</li>
+            <li>NOTIFICATIONS</li>
+          </ul>
+        </header>
+      </div>
+      <section>
+        <article class="charts">
+          <div class="circle-chart-section">
+            <div class="circle-charts">
+              <div class='upload-progress per50 chart1'>
+                <span class='progress-val'>
+                  3,154
+                  <span class="progress-val-2">APPLICANTS</span>
+                </span>
+                <div class='pie'>
+                  <div class='first'></div>
+                  <div class='last'></div>
+                </div>
+              </div>
+              <div class='upload-progress per30 chart2'>
+                <span class='progress-val'>
+                  1,546
+                  <span class="progress-val-2">INTERVIEWS</span>
+                </span>
+                <div class='pie'>
+                  <div class='first'></div>
+                  <div class='last'></div>
+                </div>
+              </div>
+              <div class='upload-progress per60 chart3'>
+                <span class='progress-val'>
+                  912
+                  <span class="progress-val-2">FORWARDS</span>
+                </span>
+                <div class='pie'>
+                  <div class='first'></div>
+                  <div class='last'></div>
+                </div>
+              </div>
+            </div>
+            <input class="chart-btn" type="button" value="TOTALS - Out of 5,238 views">
+          </div>
+          <div>
+            <img class="bar-chart" src="bar-chart.png" alt="Bar Chart">
+            <input class="chart-btn" type="button" value="APPLICANTS/DAY">
+          </div>
+        </article>
+        <div class="collapse">
+          <hr>
+          <div class="collapse-arrow">
+            <i class="fas fa-angle-up"></i>
+          </div>
+          <hr>
+        </div>
+        <div class="job">
+          <article class="job-info">
+            <div class="job-card">
+              <div class="card-title">JOB DESCRIPTION
+                <div class="edit">
+                  <i class="fas fa-pencil-alt"></i>EDIT
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-body-title">POSITION TITLE</p>
+                <p class="card-body-description">Customer Service Representitive</p>
+                <p class="card-body-title">LOCATION</p>
+                <p class="card-body-description">San Fancisco, CA</p>
+                <p class="card-body-title">EMPLOYMENT TYPE</p>
+                <p class="card-body-description">Full-Time</p>
+                <p class="card-body-title">EXPERIENCE</p>
+                <p class="card-body-description">Mid-level</p>
+                <p class="card-body-title">STATUS</p>
+                <p class="card-body-description">Open</p>
+                <p class="card-body-title">DESCRIPTION</p>
+                <p class="card-body-description">The Customer Service Representative is responsible for interacting with and providing quality assistance
+                  to all radical customers, responsible for keeping up-to-date on the various product shizzle, helping the
+                  bidness reduce customer service wait times doing a backhand spring and eating a ham sandwich.</p>
+                <p class="card-body-title">HIRING LEAD</p>
+                <p class="card-body-description">
+                  Tom Tizzy</p>
+                <p class="card-body-title">APPROVED SALARY</p>
+                <p class="card-body-description">$58,000</p>
+              </div>
+            </div>
+          </article>
+          <aside>
+            <div class="social-buttons">
+              <button class="social-btn social-btn-1">
+                <i class="fab fa-facebook-f"></i>Post to Facebook</button>
+              <button class="social-btn social-btn-2">
+                <i class="fab fa-twitter"></i>Tweet this Job</button>
+              <button class="social-btn social-btn-3">
+                <i class="fab fa-linkedin"></i>Post to Linkedin</button>
+            </div>
+            <div class="aside-widgets">
+              <i class="fas fa-globe"></i>
+              <span>Link to this Job</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              <input type="text">
+              <button>Copy</button>
+            </div>
+            <hr>
+            <div class="aside-widgets">
+              <i class="fab fa-wpforms"></i>
+              <span>Use the Button Widget</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              <input type="text">
+              <button>Copy</button>
+            </div>
+            <hr>
+            <div class="aside-widgets">
+              <i class="fas fa-paper-plane"></i>
+              <span>Upload Resumes by Email</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              <input type="text">
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://use.fontawesome.com/753da960ee.js"></script>
+</body>
+
+</html>
