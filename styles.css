@@ -698,10 +698,27 @@ aside hr {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .search-input-container input {
+    width: 350px;
+  }
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:500px) {
   .collapse hr {
     width: 44%;
+  }
+  .search-input-container input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .search-input-container input {
+    width: 150px;
+  }
+}
+@media only screen and (max-width:350px) {
+  .search-input-container input {
+    width: 100px;
   }
 }
